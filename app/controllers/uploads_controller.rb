@@ -24,6 +24,7 @@ class UploadsController < ApplicationController
   # POST /uploads
   # POST /uploads.json
   def create
+    puts "++++++++++++++++++"
     @upload = Upload.create(upload_params)
   end
 
