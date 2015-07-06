@@ -47,7 +47,8 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'paperclip'
+#gem 'paperclip'
 gem 'therubyracer'
 
 gem 'jquery-fileupload-rails'
+gem 'carrierwave'
